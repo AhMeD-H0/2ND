@@ -1,0 +1,12 @@
+name : hi
+
+on: push
+
+jobs:
+ my-jop:
+  runs-on: hkgkh
+  steps:
+   - name: step_one
+     run: echo "A"
+   - name: step2
+     run: echo "B"
